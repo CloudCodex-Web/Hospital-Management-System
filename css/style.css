@@ -30,5 +30,16 @@ header{
     justify-content: space-between;
     padding: 1rem 2rem;
     z-index: 1000;
+}
+/* Logo name */
+header a{
+    color: var(--black);
 
+}
+header a:hover{
+    color: var(--blue);
+}
+header .logo{
+    font-size: 3rem;
+    
 }
