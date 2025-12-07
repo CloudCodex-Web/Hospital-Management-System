@@ -17,6 +17,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
+/* Header Navbar Section */
 header{
     width: 96%;
     background: var(--white);
