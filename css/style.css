@@ -79,7 +79,53 @@ header .fa-x {
     font-size: 3rem;
     transform: rotate(180deg);
 }
+/* Home Section */
+.home {
+    min-height: 100vh;
+    padding-top: 10rem;
+}
+.home .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+}
+/* Home Images */
+.home .row .images img {
+    height: 75vh;
+}
+.home .content h1 {
+    font-size: 4rem;
+    color: var(--black);
+}
+.home .content h1 span {
+    color: var(--blue);
+}
+.home .content p {
+    font-size: 1.6rem;
+    color: var(--black);
 
+}
+/* Button */
+.button {
+    height: 3.5rem;
+    width: 15rem;
+    background: var(--blue);
+    color: var(--white);
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin: 1rem 0;
+    border: .1rem solid var(--blue) ;
+}
+.button:hover {
+    border: .1rem solid var(--blue);
+    background: var(--white);
+    color: var(--blue);
+    letter-spacing: .2rem;
+}
 
 /*MOBILE NAVBAR*/
 @media (max-width:768px) {
