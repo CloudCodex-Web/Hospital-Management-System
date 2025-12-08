@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Dancing+Script:wght@400..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=League+Spartan:wght@100..900&family=Manufacturing+Consent&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --blue: #0188df;
     --black: #333;
     --white: #fff;
 }
+
+/* Reset */
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -14,11 +17,15 @@
     box-sizing: border-box;
     transition: all linear .2s;
 }
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
-/* Header Navbar Section */
+
+/* ======================
+   HEADER SECTION
+========================*/
 header {
     width: 96%;
     background: var(--white);
@@ -31,26 +38,22 @@ header {
     justify-content: space-between;
     padding: 1rem 2rem;
     z-index: 1000;
+    border-radius: 1rem;
 }
-/* Logo name */
-header a {
-    color: var(--black);
 
-}
-header a:hover {
-    color: var(--blue);
-}
+/* Logo */
 header .logo {
     font-size: 3rem;
+    color: var(--black);
 }
 header .logo span {
     color: var(--blue);
 }
-/* Navbar links */
+
+/* Navbar Links */
 header .navbar ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     list-style: none;
 }
 header .navbar ul li {
@@ -59,74 +62,70 @@ header .navbar ul li {
 header .navbar ul li a {
     font-size: 2rem;
     color: var(--black);
-
 }
 header .navbar ul li a:hover {
     color: var(--blue);
-
 }
+
+/* Hamburger Icon (FA7) */
 header .fa-bars {
     font-size: 3rem;
     cursor: pointer;
     color: var(--blue);
     display: none;
 }
+/* Cross icon rotation */
+header .fa-x {
+    transform: rotate(180deg);
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media query */
-
+/* ======================
+   MOBILE NAVBAR
+========================*/
 @media (max-width:768px) {
 
     html {
         font-size: 55%;
     }
-    header .fa-bars {
+
+    /* Show hamburger */
+    header .fa-bars,
+    header .fa-x {
         display: block;
     }
+
+    /* Hide menu by default */
     header .navbar {
-        position: fixed;
-        top: 5.5rem;
+        position: absolute;
+        top: 100%;
         left: 0;
         width: 100%;
         background: var(--white);
         opacity: 0;
-
+        pointer-events: none;
+        transition: .3s ease;
+        border-radius: 0 0 1rem 1rem;
     }
+
+    /* Show menu when active */
+    header .navbar.active {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    /* Mobile menu style */
     header .navbar ul {
-        flex-flow: column;
+        flex-direction: column;
         padding: 2rem 0;
     }
+
     header .navbar ul li {
         margin: 1rem 0;
         width: 100%;
         text-align: center;
     }
+
     header .navbar ul li a {
         font-size: 3rem;
         display: block;
