@@ -61,7 +61,7 @@ header .navbar ul li a {
     color: var(--black);
 
 }
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
     color: var(--blue);
 
 }
@@ -70,4 +70,65 @@ header .fa-bars {
     cursor: pointer;
     color: var(--blue);
     display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 55%;
+    }
+    header .fa-bars {
+        display: block;
+    }
+    header .navbar {
+        position: fixed;
+        top: 5.5rem;
+        left: 0;
+        width: 100%;
+        background: var(--white);
+        opacity: 0;
+
+    }
+    header .navbar ul {
+        flex-flow: column;
+        padding: 2rem 0;
+    }
+    header .navbar ul li {
+        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    header .navbar ul li a {
+        font-size: 3rem;
+        display: block;
+    }
 }
