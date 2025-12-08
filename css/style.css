@@ -37,8 +37,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    z-index: 1000;
     border-radius: 1rem;
+    
+
+   
+
+
 }
 
 /* Logo */
@@ -82,9 +86,7 @@ header .fa-x {
 }
 
 
-/* ======================
-   MOBILE NAVBAR
-========================*/
+/*MOBILE NAVBAR*/
 @media (max-width:768px) {
 
     html {
