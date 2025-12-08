@@ -67,7 +67,7 @@ header .navbar ul li a:hover {
     color: var(--blue);
 }
 
-/* Hamburger Icon (FA7) */
+/* Hamburger Icon  */
 header .fa-bars {
     font-size: 3rem;
     cursor: pointer;
@@ -76,6 +76,8 @@ header .fa-bars {
 }
 /* Cross icon rotation */
 header .fa-x {
+    color: var(--blue);
+    font-size: 3rem;
     transform: rotate(180deg);
 }
 
