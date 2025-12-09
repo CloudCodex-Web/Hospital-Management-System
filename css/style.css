@@ -112,7 +112,7 @@ header .fa-x {
     background: var(--white);
 
 }
-.about .box-contianer .box {
+.about .box-container .box {
     width: 75%;
     margin: 4rem auto;
     border-radius: .5rem;
@@ -124,10 +124,15 @@ header .fa-x {
 
 }
 /* About Image */
-.about .box-contianer .box .images {
+.about .box-container .box .images {
     height: 40rem;
     width: 50%;
-    
+
+}
+.about .box-container .box .images img {
+    height: 100%;
+    width: 100%;
+
 }
 
 
