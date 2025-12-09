@@ -107,6 +107,41 @@ header .fa-x {
     color: var(--black);
 
 }
+/*About Section*/
+.about {
+    background: var(--white);
+
+}
+.about .box-contianer .box {
+    width: 75%;
+    margin: 4rem auto;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Button */
 .button {
     height: 3.5rem;
@@ -144,6 +179,7 @@ header .fa-x {
     padding: 0rem 1rem;
     font-size: 2.5rem;
     color: var(--black);
+    font-weight: 300;
 
 }
 /*MOBILE NAVBAR*/
