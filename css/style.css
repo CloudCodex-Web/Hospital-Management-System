@@ -120,7 +120,14 @@ header .fa-x {
     display: flex;
     align-items: center;
     overflow: hidden;
+    background: var(white);
 
+}
+/* About Image */
+.about .box-contianer .box .images {
+    height: 40rem;
+    width: 50%;
+    
 }
 
 
