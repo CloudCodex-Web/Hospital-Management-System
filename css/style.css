@@ -153,26 +153,10 @@ header .fa-x {
     margin: 1rem 0;
     text-align: start;
 }
+.about .box-container .box:nth-child(even) {
+    flex-flow: row-reverse;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 /* Button */
 .button {
     height: 3.5rem;
@@ -261,4 +245,9 @@ header .fa-x {
         font-size: 3rem;
         display: block;
     }
+}
+/* About Media Query */
+.about .box-container .box {
+    width: 90%;
+    flex-flow: column;
 }
