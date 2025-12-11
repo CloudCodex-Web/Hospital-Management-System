@@ -134,6 +134,25 @@ header .fa-x {
     width: 100%;
 
 }
+/* About Heading and Text*/
+.about .box-container .box .content {
+    height: 100%;
+    width: 50%;
+    padding: 2rem;
+}
+.about .box-container .box .content h3 {
+    font-size: 3rem;
+    color: var(--blue);
+    display: flex;
+    align-items: start;
+
+}
+.about .box-container .box .content p {
+    font-size: 1.5rem;
+    color: var(--black);
+    margin: 1rem 0;
+    text-align: start;
+}
 
 
 
