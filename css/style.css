@@ -177,6 +177,27 @@ header .fa-x {
     width: 100%;
     object-fit: cover;
 }
+.card .box-container .box .content {
+    padding: 1rem 1.3rem;
+
+}
+.card .box-container .box .content h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--black);
+}
+
+.card .box-container .box .content h2:hover {
+    color: var(--blue);
+    text-decoration: underline;
+
+}
+
+.card .box-container .box .content p {
+    font-size: 1.7rem;
+    text-align: center;
+    color: var(--black);
+}
 /* Button */
 .button {
     height: 3.5rem;
