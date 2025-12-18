@@ -162,6 +162,8 @@ header .fa-x {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+
+
 }
 /* Card Box */
 .card .box-container .box {
@@ -170,6 +172,7 @@ header .fa-x {
     overflow: hidden;
     border-radius: .5rem;
     box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.3);
+
 }
 /* Card Image */
 .card .box-container .box img {
@@ -179,6 +182,7 @@ header .fa-x {
 }
 .card .box-container .box .content {
     padding: 1rem 1.3rem;
+
 
 }
 .card .box-container .box .content h2 {
@@ -198,6 +202,21 @@ header .fa-x {
     text-align: center;
     color: var(--black);
 }
+.card .box-container .box .content .icons {
+    text-align: center;
+
+
+}
+.card .box-container .box .content .icons a {
+    font-size: 2rem;
+    color: var(--blue);
+    text-align: center;
+    margin: 1rem;
+}
+
+
+
+
 /* Button */
 .button {
     height: 3.5rem;
