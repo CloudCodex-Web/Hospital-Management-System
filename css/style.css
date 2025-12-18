@@ -162,7 +162,7 @@ header .fa-x {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px   ;
+    gap: 30px;
 }
 /* Card Box */
 .card .box-container .box {
@@ -212,7 +212,43 @@ header .fa-x {
     text-align: center;
     margin: 1rem;
 }
+/*Review Section*/
+.review .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 
+}
+.review .box-container .box {
+    width: 35rem;
+    text-align: center;
+    padding: 0 2rem;
+    margin: 4rem 1.5rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.3);
+}
+/* Review Image */
+.review .box-container .box .images {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: .5rem 0;
+    border-top: .1rem solid #333;
+}
+.review .box-container .box .images img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: .8rem 1rem;
+
+}
+.review .box-container i {
+    font-size: 6rem;
+    margin-top: -3rem;
+    color: var(--blue);
+    opacity: .4;
+}
 
 
 
