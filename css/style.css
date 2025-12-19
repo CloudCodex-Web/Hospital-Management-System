@@ -169,7 +169,7 @@ header .fa-x {
     width: 30rem;
     margin: 2rem 1rem;
     overflow: hidden;
-    border-radius: .5rem;
+    border-radius: 2rem;
     box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.3);
 
 }
@@ -249,7 +249,19 @@ header .fa-x {
     color: var(--blue);
     opacity: .4;
 }
-
+.review .box-container p {
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: 2rem 0;
+}
+.review .box-container .info h3 {
+    color: var(--blue);
+    font-size: 1.5rem;
+}
+.review .box-container .info span {
+    color: var(--blue);
+    font-size: 1.2rem;
+}
 
 
 /* Button */
