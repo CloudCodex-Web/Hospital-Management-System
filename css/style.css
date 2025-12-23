@@ -317,6 +317,39 @@ textarea:focus {
     border: .2rem solid var(--blue);
 }
 
+/*Blog Section*/
+.blog .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.blog .box-container .box {
+    width: 35rem;
+    margin: 2rem 1rem;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.3);
+}
+.blog .box-container .box img {
+    width: 100%;
+
+}
+.blog .box-container .box .content {
+    padding: 0 1.5rem;
+
+}
+.blog .box-container .box .content h2 {
+    font-size: 2rem;
+    color: var(--blue);
+
+}
+.blog .box-container .box .content p {
+    font-size: 1.3rem;
+    color: var(--black);
+
+}
+
 
 
 
