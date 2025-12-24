@@ -349,6 +349,65 @@ textarea:focus {
     color: var(--black);
 
 }
+/*Footer Section*/
+.footer {
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.footer .box {
+    width: 30rem;
+    margin: 2rem;
+    text-align: center;
+}
+.footer .box:nth-child(1) {
+    text-align: left;
+}
+.footer .box .logo {
+    padding: 2rem 0;
+    font-size: 3rem;
+    color: var(--white);
+}
+.footer .box .logo:hover {
+    color: var(--blue);
+}
+.footer .box .logo span {
+    color: var(--blue);
+}
+.footer .box p {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.footer .box p {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.footer .box a {
+    color: var(--white);
+    font-size: 2rem;
+    display: block;
+    padding: .2rem 0;
+}
+.footer .box a:hover {
+    text-decoration: underline;
+
+}
+.footer .credit {
+    width: 85%;
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: var(--white);
+    text-align: center;
+    border-top: .2rem solid var(--white);
+}
+.footer .credit span{
+    color: var(--blue);
+    text-decoration: underline;
+    letter-spacing: .5rems;
+}
+
 
 
 
