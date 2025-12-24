@@ -4,7 +4,7 @@ A simple and responsive Hospital Management System built using HTML, CSS, and Ja
 This project runs directly in the browser and does not require any backend or database.
 
 ## Features
-- Responsive hospital website UI
+- Responsive hospital website UI 
 - Doctors, services, reviews, blog, and contact sections
 - JavaScript-based interactivity
 - Images included
